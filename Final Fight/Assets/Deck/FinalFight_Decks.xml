@@ -1,0 +1,82 @@
+﻿<!--Decks are all the differents Decks in the game.-->
+<!--To make a comment, highlight the text and press control 'K' the control 'C'-->
+<Decks>
+  <Deck name ="Boxing">
+    <Cards>
+      <Combos>
+        <Combo name="X3">
+          <ComboAmount>3</ComboAmount>
+          <Amount>5</Amount><!--Amount of this card type in this game.-->
+        </Combo>
+        <Combo name="X2">
+          <ComboAmount>2</ComboAmount>
+          <Amount>5</Amount>
+        </Combo>
+      </Combos>
+
+      <Attacks>
+        <Attack name="Jab" Requirement="none">
+          <AttackValue>1</AttackValue>
+        </Attack>
+        <Attack name="Hook" Requirement="Rotate">
+          <AttackValue>3</AttackValue>
+          <Amount>5</Amount>
+        </Attack>
+      </Attacks>
+
+      <Movements>
+        <Movement name="Rotate">
+          <Amount>5</Amount>
+        </Movement>
+        <Movement name="Crouch">
+          <Amount>5</Amount>
+        </Movement>
+        <Movement name="Block">
+          <Amount>5</Amount>
+        </Movement>
+      </Movements>
+
+    </Cards>
+  </Deck>
+
+  <Deck name ="Karate">
+    <Cards>
+      <Combos>
+        <Combo name="X3">
+          <ComboAmount>3</ComboAmount>
+          <Amount>5</Amount>
+        </Combo>
+        <Combo name="X2">
+          <ComboAmount>2</ComboAmount>
+          <Amount>5</Amount>
+        </Combo>
+      </Combos>
+
+      <Attacks>
+        <Attack name="Jab" Requirement="none">
+          <AttackValue>1</AttackValue>
+        </Attack>
+        <Attack name="Hook" Requirement="Rotate">
+          <AttackValue>3</AttackValue>
+          <Amount>5</Amount>
+        </Attack>
+      </Attacks>
+
+      <Movements>
+        <Movement name="Rotate">
+          <Amount>5</Amount>
+        </Movement>
+        <Movement name="Crouch">
+          <Amount>5</Amount>
+        </Movement>
+        <Movement name="Block">
+          <Amount>5</Amount>
+        </Movement>
+      </Movements>
+
+    </Cards>
+  </Deck>
+  
+  
+
+</Decks>
